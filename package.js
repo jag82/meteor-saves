@@ -2,7 +2,7 @@ Package.describe({
   name: 'jag82:saves',
   version: '0.0.1',
   summary: 'a ready-to-use, generic saving/loading system for persistent objects',
-  git: '',
+  git: 'https://github.com/jag82/meteor-saves',
   documentation: 'README.md'
 });
 
