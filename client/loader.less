@@ -1,0 +1,35 @@
+.jag82_saves__components__loader{
+	.toggle{
+		line-height: 2;
+	}
+	.form {
+		display: none;
+		position: relative;
+	}
+	.results {
+		position: absolute;
+		z-index:999;
+		width: 100%;
+		.result {
+			background: white;
+			padding: 12px 8px;
+			color: black;
+			&.active{
+				background: #aaa;
+			}
+			&:hover{
+				background: grey;
+	
+			}
+		}
+	}
+	&.active{
+		.toggle {
+			display: none;
+		}
+		.form {
+			display: inherit;
+		}
+	}
+
+}
